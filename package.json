@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ChrisVazquez6/employeeManagment/issues"
   },
-  "homepage": "https://github.com/ChrisVazquez6/employeeManagment#readme"
+  "homepage": "https://github.com/ChrisVazquez6/employeeManagment#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql3": "^0.6.0"
+  }
 }
