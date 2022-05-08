@@ -7,9 +7,9 @@ const { inherits } = require('util')
 inquirer.prompt([{
   message:'would you like to add a Department or Role!',
   type:'list',
-  choices:['add department','add role','add employee','view department','view roles','view employee', 'update employee role']
+  choices:['add department','add role','add employee','view department','view roles','view employee', 'update employee role'],
   name:'init'
 }])
 .then(init=>{
-  loginit
+  console.log(init);
 })
